@@ -2,7 +2,7 @@
 
 ## ¿Qué se ha completado?
 
-### ✅ Arquitectura y Estructura
+### Arquitectura y Estructura
 - **Framework**: Spring Boot 4.0.6 con Java 21
 - **Base de Datos**: H2 (Portable - archivo local)
 - **Interfaz**: Web con HTML5, Bootstrap 5 y JavaScript
@@ -66,7 +66,7 @@ GET        /api/reports/earnings/today - Ganancias de hoy
 - Tarjetas estadísticas (ventas, ganancias, transacciones)
 - Alertas de inventario
 
-## 📦 Cómo Ejecutar la Aplicación
+##  Cómo Ejecutar la Aplicación
 
 ### **Opción 1: Script Automático (Recomendado)**
 
@@ -94,7 +94,7 @@ cd c:\Users\Santiago\Desktop\demo
 ./gradlew.bat bootRun
 ```
 
-## 🌐 Acceso a la Aplicación
+##  Acceso a la Aplicación
 
 Una vez que la aplicación esté corriendo:
 - **URL Principal**: http://localhost:8080
@@ -102,26 +102,26 @@ Una vez que la aplicación esté corriendo:
   - Usuario: `admin`
   - Contraseña: `admin123`
 
-## 👤 Credenciales por Defecto
+##  Credenciales por Defecto
 
 **Usuario Admin:**
 - Usuario: `admin`
 - Contraseña: `admin123`
 
-## 💾 Base de Datos (Portabilidad)
+## Base de Datos (Portabilidad)
 
 La aplicación usa **H2 Database** que guarda los datos en un archivo local:
 - **Ubicación**: `./jurassic_burger_db.mv.db`
 - **Ventaja**: Totalmente portable, no necesita servidor de base de datos
 - **Ubicación del archivo**: Misma carpeta del proyecto
 
-## 📊 Datos de Ejemplo
+## atos de Ejemplo
 
 La aplicación crea automáticamente:
 - **8 productos de ejemplo**: Jurassic Burger, T-Rex Burger, Combos, etc.
 - **1 usuario admin**: admin/admin123
 
-## 🛠️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -139,7 +139,7 @@ src/
     └── java/                 → Tests (Spring Boot)
 ```
 
-## 📈 Próximas Mejoras Sugeridas
+## Próximas Mejoras Sugeridas
 
 1. **Autenticación y Seguridad**
    - Implementar Spring Security
@@ -161,7 +161,7 @@ src/
    - Crear ejecutable Windows (.exe)
    - Crear imagen Docker
    - Empaquetar como aplicación Desktop
-
+5.  **optimizar el programa**
 ## Configuración Actual
 
 ### application.properties:
