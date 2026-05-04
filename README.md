@@ -1,4 +1,4 @@
-# 🍔 JURASSIC BURGER - Sistema de Gestión de Ventas Local
+# JURASSIC BURGER - Sistema de Gestión de Ventas Local
 
 ## ¿Qué se ha completado?
 
@@ -8,7 +8,7 @@
 - **Interfaz**: Web con HTML5, Bootstrap 5 y JavaScript
 - **Build Tool**: Gradle
 
-### ✅ Módulos Implementados
+###  Módulos Implementados
 
 #### 1. **Gestión de Productos (CRUD Completo)**
    - Crear, editar, eliminar productos
@@ -28,7 +28,7 @@
    - Alertas de stock bajo
    - Trazabilidad completa
 
-#### 4. **Reportes y Ganancias** 🎯
+#### 4. **Reportes y Ganancias** 
    - **Reportes Diarios**: ventas, ingresos y ganancias del día
    - **Reportes Mensuales**: análisis mensual completo
    - **Dashboard**: vista rápida de KPIs principales
@@ -40,7 +40,7 @@
    - Roles (ADMIN, EMPLOYEE)
    - Control de acceso
 
-### ✅ Base de Datos
+### Base de Datos
 - **Tablas creadas automáticamente**:
   - `products` - Catálogo de productos
   - `sales` - Historial de ventas
@@ -48,7 +48,7 @@
   - `users` - Usuarios del sistema
   - `inventory_logs` - Movimientos de inventario
 
-### ✅ API REST Completa
+### API REST Completa
 ```
 GET/POST   /api/products              - Gestión de productos
 GET/POST   /api/sales                 - Gestión de ventas
@@ -59,7 +59,7 @@ GET        /api/reports/monthly/{y}/{m} - Reporte mensual
 GET        /api/reports/earnings/today - Ganancias de hoy
 ```
 
-### ✅ Interfaz Web
+### Interfaz Web
 - Dashboard principal con estadísticas en tiempo real
 - Navbar navegable
 - Sidebar con menús principales
@@ -162,7 +162,7 @@ src/
    - Crear imagen Docker
    - Empaquetar como aplicación Desktop
 
-## 🎯 Configuración Actual
+## Configuración Actual
 
 ### application.properties:
 ```properties
@@ -171,19 +171,19 @@ spring.jpa.hibernate.ddl-auto=update
 server.port=8080
 ```
 
-## ⚠️ Notas Importantes
+##  Notas Importantes
 
 1. **Base de Datos**: Se crea automáticamente en ejecución primera
 2. **Puerto**: Por defecto en 8080 (modificable en application.properties)
 3. **Datos Iniciales**: Se crean automáticamente en el primer inicio
 4. **Desarrollo**: El `spring-boot-devtools` permite hot-reload
 
-## 📞 Información de Contacto
+##  Información de Contacto
 
 Sistema creado para: **Jurassic Burger - Negocio Local**
-Desarrollador: Estudiante de Desarrollo de Software
+Desarrollador: Erick Santiago Moreno 
 
 ---
 
-**Estado**: ✅ COMPLETADO Y FUNCIONANDO
+**Estado**: COMPLETADO Y FUNCIONANDO
 **Última actualización**: 4 de mayo de 2026
